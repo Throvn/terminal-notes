@@ -5,7 +5,7 @@ Pure JS commandline-app for taking, listing and removing simple notes.
 
 The notes are saved on your local machine in a file called ``notes-data.json`` in the same directory.
 
-Possible commands:
+### Possible commands:
 
 _Before every command you have to write ``node app.js``_
 
