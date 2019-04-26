@@ -40,7 +40,7 @@ var getNote = (title) => {
 }
 var removeNote = (title) => {
     var notes = fetchNotes()
-    const newNotes = notes.filter((note) => note.title !== title)
+    const newNotes = notes.filter((note) => note.title.toLowerCase() !== title.toLowerCase())
     saveNotes(notes.filter((note) => note.title !== title))
     return notes.length !== newNotes.length
 }
